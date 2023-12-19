@@ -33,6 +33,12 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
+div{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body,
 html {
     width: 100%;
@@ -676,11 +682,14 @@ input[type='checkbox'] {
 	overflow: hidden;
 	margin-right: auto;
 	margin-left: auto;
+	border-radius: 15px;
+	border: 5px solid darkorange;
 }
 
 .basic-3 .image-container img {
 	margin: 0;
 	transition: all 0.2s;
+	
 }
 
 .basic-3 .image-container:hover img {
@@ -711,6 +720,8 @@ input[type='checkbox'] {
 	overflow: hidden;
 	margin-right: auto;
 	margin-left: auto;
+	border: 3px solid darkorange;
+	border-radius: 7px;
 }
 
 .basic-4 .image-container img {
@@ -1279,3 +1290,7 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+.text-container, .image-container{
+	margin: 0;
+	padding: 0;
+}
